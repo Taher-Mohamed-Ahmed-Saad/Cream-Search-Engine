@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1C1C1C;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.result{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    color: #FFF;
+}
+.result .title{
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: #BED7DB;
+}
+#pagination
+{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    font-size:20px;
+    background: #C4C4C4;
+}
+
+#SearchBar{
+    margin: 15px;
+    display: flex;
+    justify-content: baseline;
+    padding: 5px;
+    background-color: #FFF;
+    width: 30vw;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#textbox{
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 20vw;
+    font-size:25px;
+    color:#1C1C1C;
+}
+
+#nav{
+    background: rgb(38,37,37);
+    background: linear-gradient(180deg, rgba(38,37,37,1) 60%, rgba(28,28,28,1) 100%);
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    width: 100vw;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-weight: 800;
+}
+.container{
+    padding: 5% 20%;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nalapa": "^1.11.0",
+    "natural": "^5.0.3",
+    "nodemon": "^2.0.7",
+    "porter-stemmer": "^0.9.1"
+  },
+  "description": ""
+}

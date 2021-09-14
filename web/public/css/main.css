@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1C1C1C;
+    padding: 0px;
+    margin: 0px;
+}
+
+ #SearchArea{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#SearchBar{
+    margin: 15px;
+    display: flex;
+    justify-content: baseline;
+    padding: 5px;
+    background-color: #FFF;
+    
+}
+
+#textbox{
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 20vw;
+    font-size:25px;
+    color:#1C1C1C;
+}
+
+#Search{
+    text-align: center;
+    font-size:20px;
+    color: #FFF;
+}
+table th{
+    padding: 0px;
+}
+#submit{
+    margin: 15px;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    font-size:20px;
+    background: #C4C4C4;
+}
